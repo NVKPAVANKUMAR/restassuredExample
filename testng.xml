@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Blackbuck Automation">
+    <test name="web">
+        <classes>
+            <class name="RechargeAPIs.test_Recharges_API"/>
+            <class name="AddTruckAPIs.test_AddTruck_API"/>
+            <class name="AssignServices.test_AssignmentAPI"/>
+        </classes>
+    </test>
+</suite>
